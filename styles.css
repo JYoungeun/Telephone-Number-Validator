@@ -9,13 +9,22 @@ html {
     overflow-x: hidden;
 }
 
-main {
+body {
     background-color: gray;
+}
+
+main {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .phone {
     border: 0.25rem solid black;
+    width: 16rem;
+    height: 24rem;
 }
 
 .input-container {
