@@ -56,9 +56,9 @@ main {
 }
 
 .screen {
-    background-color: beige;
+    background-color: rgb(243, 243, 242);
     border-radius: 0.25rem;
-    height: 25rem;
+    height: 26rem;
 }
 
 .input-container {
@@ -79,4 +79,8 @@ button {
     margin: 0.5rem;
     width: 5.5rem;
     height: 1.5rem;
+}
+
+button:hover {
+    cursor: pointer;
 }
