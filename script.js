@@ -4,7 +4,7 @@ const checkBtn = document.getElementById('check-btn');
 const clearBtn = document.getElementById('clear-btn');
 
 const checkValidNum = input => {
-    const countryCode = '^(1\\s?)?';
+    const countryCode = '^(\\+1\\s?|1\\s?)?';
     const areaCode = '(\\([0-9]{3}\\)|[0-9]{3})';
     const spacesDashes = '[\\s\\-]?';
     const phoneNumber = '[0-9]{3}[\\s\\-]?[0-9]{4}$';
